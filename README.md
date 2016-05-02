@@ -20,7 +20,7 @@ mongodb://public_read:password@aws-us-east-1-portal.11.dblayer.com:27790,aws-us-
 General schema: title, author, division(of author), date, section, content.
 
 #API Description
-Here is the accessing API:
+Here is the accessing API(Deployed with EC2):
 
 http://54.169.211.63:8000/search_or/: return 10 random news
 
