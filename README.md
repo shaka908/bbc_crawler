@@ -1,8 +1,7 @@
 # bbc_crawler
 This is a demo for bbc news crawling.
 
-# Constraints
-The crawling is constrained to bbc.com/news domain. 
+
 
 #Description
 Crawled data is in compose mongod and can be read by:
@@ -12,7 +11,9 @@ General schema: title, author, division(of author), date, section, content.
 
 #API
 Here is the accessing API:
-http://54.169.211.63:8000/search_or/
+http://54.169.211.63:8000/search_or/ 
+
+
 http://54.169.211.63:8000/search_or/
 http://54.169.211.63:8000/search_or/
 http://54.169.211.63:8000/search_or/
@@ -20,3 +21,6 @@ http://54.169.211.63:8000/search_or/
 http://54.169.211.63:8000/search_or/
 
 
+# Remark
+1) The crawling is constrained to bbc.com/news domain. 
+2) API search return number limited to 50 to avoid heavy traffic load.
