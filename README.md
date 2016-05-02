@@ -19,7 +19,7 @@ mongodb://public_read:password@aws-us-east-1-portal.11.dblayer.com:27790,aws-us-
 
 General schema: title, author, division(of author), date, section, content.
 
-#API
+#API Description
 Here is the accessing API:
 
 http://54.169.211.63:8000/search_or/: return 10 random news
@@ -37,4 +37,5 @@ http://54.169.211.63:8000/lookup_date/date_string: retrieve news for specific da
 
 # Remark
 1) The crawling is constrained to bbc.com/news domain. 
+
 2) API search return number limited to 50 to avoid heavy traffic load.
