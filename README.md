@@ -13,7 +13,7 @@ venv: virtual environment setting
 
 
 # DB Description
-Crawled data is in compose mongod and can be read by:
+Crawled data (still crawling) is in compose mongod and can be read by:
 
 mongodb://public_read:password@aws-us-east-1-portal.11.dblayer.com:27790,aws-us-east-1-portal.10.dblayer.com:11140/bbc
 
