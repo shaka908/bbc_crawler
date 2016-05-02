@@ -12,5 +12,11 @@ General schema: title, author, division(of author), date, section, content.
 
 #API
 Here is the accessing API:
+http://54.169.211.63:8000/search_or/
+http://54.169.211.63:8000/search_or/
+http://54.169.211.63:8000/search_or/
+http://54.169.211.63:8000/search_or/
+http://54.169.211.63:8000/search_or/
+http://54.169.211.63:8000/search_or/
 
 
